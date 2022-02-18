@@ -1,0 +1,30 @@
+body 
+{
+    background: rgb(0, 128, 255);       
+}
+
+a{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid blue;
+}
+
+.some_text{
+    width: 406px;
+    border: 1px solid blue;
+}
+
+.tab2, .tab3, .tab4{
+    display: none;
+}
+
+.active{
+    background-color: #5e3ddf;
+    border-right-color: #5e3ddf;
+    color: #fff;
+}
